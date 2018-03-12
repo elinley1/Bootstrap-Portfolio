@@ -80,3 +80,9 @@ p {
     background-color: rgb(137, 164, 240);
     color: black;
 }
+@media screen and (max-width 760px) {
+    .panel-default{
+        position: absolute;
+        width: auto;
+    }
+}
