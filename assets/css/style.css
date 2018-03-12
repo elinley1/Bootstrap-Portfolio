@@ -83,6 +83,9 @@ p {
 @media screen and (max-width 760px) {
     .panel-default{
         position: absolute;
-        width: auto;
+        width: 100%;
+    }
+    .navbar-default {
+        position: static;
     }
 }
