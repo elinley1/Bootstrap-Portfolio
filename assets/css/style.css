@@ -1,0 +1,82 @@
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #222;
+  background-image: url("../imgs/skulls.jpg");
+}
+/* header */
+
+.navbar-default {
+  background: #5269b4;
+  border-bottom: 3px solid rgb(158, 16, 16);
+}
+
+.navbar-header .navbar-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #fff;
+}
+.navbar-default .navbar-nav li a {
+    color:#fff;
+}
+
+/* Main */
+h1 {
+    color: rgb(158, 16, 16);
+    font-style: bold;
+}
+
+.about-content img {
+    float: left;
+    margin-right: 10px;
+    border: 3px solid rgb(158, 16, 16);
+}
+p {
+    word-wrap: break-word;
+    margin: 0 0 10px;
+}
+/*Social Media Panel*/
+.panel-default {
+    border: 2px solid rgb(158, 16, 16);
+    float: right;
+}
+.panel-default .panel-heading {
+    background-color: #5269b4;
+    color: #fff;
+    border-bottom: 2px solid rgb(158, 16, 16);
+}
+.svg-inline--fa.fa-w-16 {
+    font-size: 20px;
+    float: left;
+    margin-right: 30px;
+}
+.svg-inline--fa.fa-w-14 {
+    font-size: 20px;
+    float: left;
+    margin-right: 30px;
+}
+.svg-inline--fa.fa-w-12 {
+    font-size: 20px;
+    float: left;
+}
+/* Portfolio */
+.thumbnail img {
+    width: 100%;
+}
+/*Contact*/
+.control-label {
+    Color: rgb(158, 16, 16);
+}
+.form-control {
+    margin-top: 20px;
+}
+.btn-default {
+    background-color: #5269b4;
+    color: #fff;
+    font-style: bold;
+}
+.btn-default:hover {
+    background-color: rgb(137, 164, 240);
+    color: black;
+}
